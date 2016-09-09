@@ -8,11 +8,11 @@
   .field
     = f.label :password, t('devise.helpers.label.password')
     %br/
-    = f.password_field :password, autocomplete: 'off'
+    = f.password_field :password, autocomplete: "off"
   .field
     = f.label :password_confirmation, t('devise.helpers.label.password_confirmation')
     %br/
-    = f.password_field :password_confirmation, autocomplete: 'off'
+    = f.password_field :password_confirmation, autocomplete: "off"
   .actions
     = f.submit t('.sign_up') , class: 'button'
 = render 'devise/shared/links'

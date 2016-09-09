@@ -9,7 +9,7 @@
   .field
     = f.label :password_confirmation, t('.confirm_new_password')
     %br/
-    = f.password_field :password_confirmation, autocomplete: 'off'
+    = f.password_field :password_confirmation, autocomplete: "off"
   .actions
     = f.submit t('.change_my_password')
 = render 'devise/shared/links'
